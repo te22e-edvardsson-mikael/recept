@@ -1,8 +1,9 @@
 .boxar{
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 15vh 100vh 13vh;
-    gap: 20px;
+   grid-template-columns: 3fr 10fr;
+    grid-template-rows: 15vh 50vh 50vh;
+    row-gap: 20px;
+   
 }
 
  header{
@@ -14,4 +15,28 @@
 
 aside{
     background-color: palevioletred;
+    grid-row: 2/3;
+    row-gap: 10px;
+ 
+}
+
+.smör {
+   
+    grid-row: 3/4;
+    object-fit: cover;
+    width: 100%;
+}
+
+.instruktion1{
+    grid-row:3/4;
+    grid-column: 2/5;
+    text-align: center;
+    background-color: palevioletred;
+
+}
+
+.boll{
+   height: 301.67px;
+   
+    width: 100%;
 }
