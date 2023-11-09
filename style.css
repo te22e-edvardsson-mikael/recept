@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 3fr 10fr 5fr;
-  grid-template-rows: 15vh 50vh 30vh 20vh 30vh 30vh 40vh 10vh;
+  grid-template-rows: 15vh 50vh 30vh 20vh 30vh 30vh 30vh;
   row-gap: 40px;
   background-color: black;
 }
@@ -16,48 +16,49 @@ header {
 }
 
 h1 {
-  display: block;
   margin: auto;
   background-color: red;
   border-radius: 10px;
   grid-row: 1/2;
   justify-content: space-between;
   width: fit-content;
+  font
 }
 
 aside {
   background-color: palevioletred;
   grid-row: 2/3;
-  border-radius: 10px;
+  
 }
 
 .smör {
   grid-row: 3/4;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  
 }
 
 .instruktion1 {
   grid-row: 3/4;
   grid-column: 2/5;
-  text-align: center;
   background-color: palevioletred;
-  border-radius: 10px;
+  padding-left: 10px;
+ 
+  
 }
 
 .boll {
   grid-column: 2/5;
   height: 100%;
   width: 150%;
-  border-radius: 10px;
+ 
 }
 
 .instruktion2 {
   background-color: palevioletred;
   grid-row: 4/5;
   grid-column: 1/5;
-  border-radius: 10px;
+  padding-left: 10px;
 }
 
 .kakao {
@@ -65,26 +66,27 @@ aside {
   grid-column: 3/5;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  
 }
 
 .instruktion3 {
   background-color: palevioletred;
   grid-row: 5/6;
   grid-column: 1/5;
-  border-radius: 10px;
+  padding-left: 10px;
 }
 
 .instruktion4 {
   background-color: palevioletred;
   grid-row: 6/7;
   grid-column: 1/5;
-  border-radius: 10px;
 }
 
 .instruktion5 {
   background-color: palevioletred;
   grid-row: 7/8;
   grid-column: 1/5;
-  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  padding-left: 10px;
 }
