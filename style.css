@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 3fr 10fr 5fr;
-  grid-template-rows: 15vh 50vh 30vh 20vh 30vh 30vh 30vh;
+  grid-template-rows: 15vh 50vh 40vh 30vh 30vh 30vh 30vh;
   row-gap: 40px;
   background-color: black;
 }
@@ -81,6 +81,7 @@ aside {
   background-color: palevioletred;
   grid-row: 6/7;
   grid-column: 1/5;
+  padding-left: 10px;
 }
 
 .instruktion5 {
@@ -95,10 +96,7 @@ aside {
 
 p{
     margin: auto;
-    background-color: red;
-    
-    
-    
+    background-color: gray;
 }
 #tid{
     float: left;
